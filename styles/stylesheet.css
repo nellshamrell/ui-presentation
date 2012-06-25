@@ -62,19 +62,24 @@ label {
     font-weight: 600;
 }
 
+.view_button {
+    background-color: #9A0107;
+    color: white;
+    height: 5%;
+}
+
 #widget_list {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    color: #383838;
     text-align: center;
 }
 
 #widget_list a {
-    text-decoration:none;
-    font-size: 200%;
-    color: #0000FF;
+  color: #003399;
+  font-size: 200%;
+  text-decoration: none;
 }
 
-#widget_list a:hover {
-    text-decoration:underline;
-}
+
