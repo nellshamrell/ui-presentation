@@ -10,7 +10,7 @@ label {
     color: #383838;
 }
 
-#wrapper {
+.wrapper {
     width: 50%;
     height: 70%;
     background-color: #FFFFFF;
@@ -49,8 +49,7 @@ label {
     text-align: center;
 }
 
-.submit_button
-{
+.submit_button {
     float: right;
     height: 15%;
     width: 25%;
@@ -63,3 +62,19 @@ label {
     font-weight: 600;
 }
 
+#widget_list {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#widget_list a {
+    text-decoration:none;
+    font-size: 200%;
+    color: #0000FF;
+}
+
+#widget_list a:hover {
+    text-decoration:underline;
+}
